@@ -1,8 +1,8 @@
 # StarFriends
 Coding Challenge: Make a 2 activity android app (kotlin) with the following requirements:
-Purpose: demo ability to write thoughtful, reusable, and scalable code.
-Purpose: ability to read and understand API documentation. 
-Judging Criteria: general usability, efficiency, and architecture.
+- Purpose: demo ability to write thoughtful, reusable, and scalable code.
+- Purpose: ability to read and understand API documentation. 
+- Judging Criteria: general usability, efficiency, and architecture.
 
 
 # Main Activity:
