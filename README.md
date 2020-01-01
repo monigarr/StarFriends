@@ -45,9 +45,7 @@ Coding Challenge: Make a 2 activity android app (kotlin) with the following requ
 
 # SCREENSHOTS
 <p align="center">
-  <img width="540px" height="960px" src="https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223306.png">
-  <img width="540px" height="960px" src="https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223329.png">
-  <img width="540px" height="960px" src="https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223315.png">
+  <img width="270px" height="480px" src="https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223306.png"><img width="270px" height="480px" src="https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223329.png"><img width="270px" height="480px" src="https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223315.png">
 </p>
 
 # REFERENCES
