@@ -44,9 +44,9 @@ Coding Challenge: Make a 2 activity android app (kotlin) with the following requ
 - Physical Device: Pixel 3, Android 9.0 Lollipop, API 28
 
 # SCREENSHOTS
-![Main Activity](https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223306.png)
-![Main Activity Search Filter](https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223329.png)
-![Details Activity](https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223315.png)
+![Main Activity](https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223306.png =540x960)
+![Main Activity Search Filter](https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223329.png =540x960)
+![Details Activity](https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223315.png =540x960)
 ![Verify Faves added to Shared Prefs]()
 
 # REFERENCES
