@@ -50,9 +50,27 @@ Coding Challenge: Make a 2 activity android app (kotlin) with the following requ
 
 # REFERENCES
 MVVM is the project goal and most of my career has been maintaining massive mvp, mvc architecture projects. 
-These links are some of the most helpful docs I found online for building this project.
+These links are some of the most helpful docs and repos I found online for helping me figure out how to build this app.
+- Android Developer https://developer.android.com/
+- Android Jetpack, App Architecture https://developer.android.com/jetpack/docs/guide 
+- Kotlin https://kotlinlang.org/
 - MVVM  https://www.codementor.io/@khashayaryadmand/mvvm-kotlin-android-wgo5vqnyp
+- MVVM by Vogella https://www.vogella.com/tutorials/AndroidArchitecture/article.html
+- MVVM + Data Binding + Kotlin https://www.avantica.net/blog/mvvm-data-binding-kotlin-efficient-and-easier-code
 - Star Wars API https://swapi.co/documentation#base
+- Shared Preferences https://developer.android.com/guide/topics/ui/settings/use-saved-values
+- Google iosched https://github.com/google/iosched
+- Google Kotlin Repos https://github.com/google?utf8=%E2%9C%93&q=&type=&language=kotlin
+- Update Live Data https://developer.android.com/topic/libraries/architecture/livedata
+- App Specific Files https://developer.android.com/training/data-storage/app-specific
+- Android Quality Guidelines https://developer.android.com/design/
+- Star Wars App by Yurentsy https://github.com/yurentsy/swapi
+- ItzikPichApplication by itzikpich  https://github.com/itzikpich/ItzikPichApplication
+- CoolRecyclerView by RockLobstre  https://github.com/RockLobstre/CoolRecyclerview
+- Live-Preferences by ibrahimsn98  https://github.com/ibrahimsn98/live-preferences
+- rxkprefs by afollestad  https://github.com/afollestad/rxkprefs
+- Connectivity Manager Discussion https://stackoverflow.com/questions/36421930/connectivitymanager-connectivity-action-deprecated
+- Kotlin OnClickListener https://stackoverflow.com/questions/44301301/android-how-to-achieve-setonclicklistener-in-kotlin
 - 
 
 # NOTES WIP
