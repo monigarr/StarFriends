@@ -57,7 +57,8 @@ These links are some of the most helpful docs I found online for building this p
 
 # NOTES WIP
 THESE WILL BE REMOVED WHEN I COMPLETE SHAREDPREF FAVE FEATURES & VERIFYING ENTIRE PROJECT IS MVVM and not mvp, mvc
-https://blog.usejournal.com/how-to-use-viewmodel-livedata-pagination-searchview-room-database-5b8bc3631ac7
+
+- https://blog.usejournal.com/how-to-use-viewmodel-livedata-pagination-searchview-room-database-5b8bc3631ac7
 
 - Search Filter
  - https://camposha.info/kotlin-android-search-filter-listview-with-searchview/
@@ -70,56 +71,56 @@ https://blog.usejournal.com/how-to-use-viewmodel-livedata-pagination-searchview-
 - https://www.soinside.com/question/rRqkxYcZMxDvUtEZC24mxM
 
 - ADD TEXT CHANGE LISTENER
- - https://www.programcreek.com/java-api-examples/?class=android.support.design.widget.TextInputEditText&method=addTextChangedListener
+   - https://www.programcreek.com/java-api-examples/?class=android.support.design.widget.TextInputEditText&method=addTextChangedListener
 
 - CONSTRAINT LAYOUT
- - https://developer.android.com/training/constraint-layout
+  - https://developer.android.com/training/constraint-layout
 
 - IMPROVE LAYOUT PERFORMANCE
- - https://developer.android.com/training/improving-layouts
+  - https://developer.android.com/training/improving-layouts
 
 - CUSTOM BUTTON ON RECYCLERVIEW
- - https://developer.android.com/guide/topics/ui/controls/button
+  - https://developer.android.com/guide/topics/ui/controls/button
 
 - ANIMATIONS & TRANSITIONS
- - https://developer.android.com/training/animation
+  - https://developer.android.com/training/animation
 
 - STAR WARS COLOR PALETTE
- - https://www.google.com/search?biw=1536&bih=722&tbm=isch&sxsrf=ACYBGNQn-E80zQ-1WyPWwLqrhnTx3IN_IA%3A1577423978596&sa=1&ei=apQFXo2DJJDJtQa4w7XwAQ&q=star+wars+color+palette&oq=star+wars+color+palette&gs_l=img.3..0l2.2222.4601..4758...0.0..0.130.1483.10j6......0....1..gws-wiz-img.......35i39j0i67j0i131i67j0i131j0i5i30j0i8i30j0i24.J7cYkLHQM84&ved=0ahUKEwiN4J2fitXmAhWQZM0KHbhhDR4Q4dUDCAc&uact=5
+  - https://www.google.com/search?biw=1536&bih=722&tbm=isch&sxsrf=ACYBGNQn-E80zQ-1WyPWwLqrhnTx3IN_IA%3A1577423978596&sa=1&ei=apQFXo2DJJDJtQa4w7XwAQ&q=star+wars+color+palette&oq=star+wars+color+palette&gs_l=img.3..0l2.2222.4601..4758...0.0..0.130.1483.10j6......0....1..gws-wiz-img.......35i39j0i67j0i131i67j0i131j0i5i30j0i8i30j0i24.J7cYkLHQM84&ved=0ahUKEwiN4J2fitXmAhWQZM0KHbhhDR4Q4dUDCAc&uact=5
 
 
 - SHARED PREFERENCES
- - https://github.com/AchmadHafid/SimplePref
+  - https://github.com/AchmadHafid/SimplePref
 
- - https://blog.mindorks.com/implementing-android-jetpack-preferences
+  - https://blog.mindorks.com/implementing-android-jetpack-preferences
 
- - https://www.geeksforgeeks.org/shared-preferences-in-android-with-examples/
- - https://github.com/MFaisalHyder/RecylerView-And-SharedPreferences/blob/master/src/com/faisal/easyprounounce/adapter/RecyclerAdapter.java
+  - https://www.geeksforgeeks.org/shared-preferences-in-android-with-examples/
+  - https://github.com/MFaisalHyder/RecylerView-And-SharedPreferences/blob/master/src/com/faisal/easyprounounce/adapter/RecyclerAdapter.java
 
- - https://android.jlelse.eu/android-observe-shared-preferences-as-livedata-27e25e7d3172
+  - https://android.jlelse.eu/android-observe-shared-preferences-as-livedata-27e25e7d3172
 
 - ANDROID HELPERS
- - https://android-arsenal.com/
+  - https://android-arsenal.com/
 
 
-- Using the MVVM with repository pattern (your data source class)  do something like the following:
+  - Using the MVVM with repository pattern (your data source class)  do something like the following:
 
-1.) Create a ViewModel which holds an instance of your data source/repository class.
+  1.) Create a ViewModel which holds an instance of your data source/repository class.
 
-2.) From your view (activity/fragment), obtain an instance of PreferenceManager and fetch the settings you need.
+  2.) From your view (activity/fragment), obtain an instance of PreferenceManager and fetch the settings you need.
 
-3.) Pass them along to your viewModel which then passes it along to your data source/repository.
+  3.) Pass them along to your viewModel which then passes it along to your data source/repository.
 
-4.) Do whatever you need in your data source class with those settings
+  4.) Do whatever you need in your data source class with those settings
 
-5.) ... inside your view class
-  - val pref = PreferenceManager.getDefaultSharedPreferences(context).getString(PREF_KEY_NAME, null)
-  - viewModel.yourMethod(pref)
+  5.) ... inside your view class
+    - val pref = PreferenceManager.getDefaultSharedPreferences(context).getString(PREF_KEY_NAME, null)
+    - viewModel.yourMethod(pref)
 
-  - ... inside your viewmodel class
-  - fun yourMethod(pref: String?) {repository.doSomething(pref)}
+    - ... inside your viewmodel class
+    - fun yourMethod(pref: String?) {repository.doSomething(pref)}
 
-  - ... inside your repository/data source class
-  - fun doSomething(pref: String?) {// whatever you need to do with this pref. // e.g. api call api.doMethod(pref)
-  - }
+    - ... inside your repository/data source class
+    - fun doSomething(pref: String?) {// whatever you need to do with this pref. // e.g. api call api.doMethod(pref)
+    - }
 
