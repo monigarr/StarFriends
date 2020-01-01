@@ -88,7 +88,18 @@ class DetailsAdapter(private val listener: DetailsAdapter.Listener) : RecyclerVi
         }
 
         override fun bind(item: PeopleData) {
-            itemView.setOnClickListener{ listener.onItemClick(item) }
+            itemView.favebutton.setOnClickListener{
+
+                listener.onItemClick(item)
+
+                //TODO: add & remove this item to shared prefs fave
+                // if item in shared prefs, remove it
+                // show star outline button on peopleactivity list item
+
+                //TODO:
+                // if item is not in shared prefs, add it
+                // show solid star button on peopleactivity list item
+            }
             itemView.tv_name.text = item.name
             itemView.tv_height.text = item.height
             itemView.tv_details_birth_year.text = item.birth_year
