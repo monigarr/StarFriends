@@ -44,12 +44,11 @@ Coding Challenge: Make a 2 activity android app (kotlin) with the following requ
 - Physical Device: Pixel 3, Android 9.0 Lollipop, API 28
 
 # SCREENSHOTS
-![Main Activity](https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223306.png){:height="540px" width="960px")
-
-![Main Activity Search Filter](https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223329.png =540x960)
-
-![Details Activity](https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223315.png =540x960)
-![Verify Faves added to Shared Prefs]()
+<p align="center">
+  <img width="540px" height="960px" src="https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223306.png">
+  <img width="540px" height="960px" src="https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223329.png">
+  <img width="540px" height="960px" src="https://github.com/monigarr/StarFriends/blob/master/Screenshot_20191231-223315.png">
+</p>
 
 # REFERENCES
 MVVM is the project goal and most of my career has been maintaining massive mvp, mvc architecture projects. 
