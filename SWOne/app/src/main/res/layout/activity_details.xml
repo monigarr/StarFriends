@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/ll_fave_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/ll_name"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp">
+
+        <Button
+            android:id="@+id/favebutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FF5722"
+            android:text="@string/add_to_faves" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/ll_year"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_fave_button">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_smaller"
+            android:foregroundTint="@color/transparent_black"
+            android:text="@string/name"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/tv_details_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_smaller"
+            android:paddingTop="@dimen/margin_smaller"
+            android:paddingRight="@dimen/margin_smaller"
+            android:paddingBottom="@dimen/margin_smaller"
+            android:text="@string/loading_please_wait"
+            android:textColor="@color/app_black"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/ll_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_name">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_smaller"
+            android:text="@string/birth_year"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/tv_details_birth_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_smaller"
+            android:paddingTop="@dimen/margin_smaller"
+            android:paddingRight="@dimen/margin_smaller"
+            android:paddingBottom="@dimen/margin_smaller"
+            android:text="@string/loading_please_wait"
+            android:textColor="@color/app_black"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/ll_mass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_year">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_smaller"
+            android:text="@string/height"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/tv_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_smaller"
+            android:paddingTop="@dimen/margin_smaller"
+            android:paddingRight="@dimen/margin_smaller"
+            android:paddingBottom="@dimen/margin_smaller"
+            android:text="@string/loading_please_wait"
+            android:textColor="@color/app_black"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_mass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/ll_hair"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_height">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_smaller"
+            android:text="@string/mass"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/tv_mass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_smaller"
+            android:paddingTop="@dimen/margin_smaller"
+            android:paddingRight="@dimen/margin_smaller"
+            android:paddingBottom="@dimen/margin_smaller"
+            android:text="@string/loading_please_wait"
+            android:textColor="@color/app_black"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_hair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/ll_skin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_mass">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_smaller"
+            android:text="@string/hair"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/tv_hair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_smaller"
+            android:paddingTop="@dimen/margin_smaller"
+            android:paddingRight="@dimen/margin_smaller"
+            android:paddingBottom="@dimen/margin_smaller"
+            android:text="@string/loading_please_wait"
+            android:textColor="@color/app_black"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_skin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/ll_eye"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_hair">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_smaller"
+            android:text="@string/skin"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/tv_skin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_smaller"
+            android:paddingTop="@dimen/margin_smaller"
+            android:paddingRight="@dimen/margin_smaller"
+            android:paddingBottom="@dimen/margin_smaller"
+            android:text="@string/loading_please_wait"
+            android:textColor="@color/app_black"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_eye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/ll_gender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_skin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_smaller"
+            android:text="@string/eye"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/tv_eye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_smaller"
+            android:paddingTop="@dimen/margin_smaller"
+            android:paddingRight="@dimen/margin_smaller"
+            android:paddingBottom="@dimen/margin_smaller"
+            android:text="@string/loading_please_wait"
+            android:textColor="@color/app_black"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_gender"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_eye">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_smaller"
+            android:text="@string/gender"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/tv_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:paddingLeft="@dimen/margin_smaller"
+            android:paddingTop="@dimen/margin_smaller"
+            android:paddingRight="@dimen/margin_smaller"
+            android:paddingBottom="@dimen/margin_smaller"
+            android:text="@string/loading_please_wait"
+            android:textColor="@color/app_black"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SWOne</string>
+    <string name="search_eg_name_birth_year">Search </string>
+    <string name="search">search</string>
+    <string name="no_information_available">No Info</string>
+    <string name="fave">fave</string>
+    <string name="add_to_faves">add to faves</string>
+    <string name="remove_from_faves">remove from faves</string>
+    <string name="show_faves">faves</string>
+    <string name="load_swapi">sw</string>
+    <string name="load_sharedprefs">sp</string>
+    <string name="character_details">Details</string>
+    <string name="loading_please_wait">Loading...</string>
+    <string name="loading_successful">Loaded</string>
+    <string name="name">name</string>
+    <string name="birth_year">dob</string>
+    <string name="height">height</string>
+    <string name="mass">mass</string>
+    <string name="hair">hair</string>
+    <string name="skin">skin</string>
+    <string name="eye">eye</string>
+    <string name="gender">gender</string>
+    <string name="title">title</string>
+    <string name="line_separator">:</string>
+    <string name="ok">OK</string>
+    <string name="data_fetching_error">Data Did Not Load</string>
+    <string name="network_connection_error">No Internet Connection</string>
+    <string name="title_activity_base">BaseActivity</string>
+</resources>

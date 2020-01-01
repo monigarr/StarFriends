@@ -1,35 +1,36 @@
 # StarFriends
-For this coding challenge, You will make a two activity application using kotlin
+Coding Challenge: Make a 2 activity android app (kotlin) with the following requirements:
+Purpose: demo ability to write thoughtful, reusable, and scalable code.
+Purpose: ability to read and understand API documentation. 
+Judging Criteria: general usability, efficiency, and architecture.
 
 
 # Main Activity:
 
-Search Bar at the top
+- Search Bar at top
 
-Recycler view
+- Recycler view
 
-Name and “Favorite” Status (See Below)
+- Name and “Favorite” Status (See Below)
 
-As the user types in the search bar, display live search results to the user inside the recycler view.
+- As user types in the search bar, display live search results to the user inside the recycler view.
 
-You will be searching for people from Star Wars using the free star wars API at https://swapi.co/.
+- Free Star Wars API at https://swapi.co/.
 
-When you tap on a person in the recycler view, open another activity
+- Tap person in recycler view to open details activity
 
-# Detail Activity
+# Details Activity
 
-Display this person's name, height, mass, hair color, skin color, eye color, birth year, and gender where applicable
+- Show person's name, height, mass, hair color, skin color, eye color, birth year, and gender
 
-"Favorite" button. 
+- "Favorite" button. 
 
-Characters that are favorited should be saved to shared preferences. 
+- Characters that are faved should be saved to shared preferences. 
 
-You should be able to see that a character is favorited on the recycler view cells (Main activity) and on the detail activity. 
+- You should be able to see that a character is favorited on the recycler view cells (Main activity) and on the detail activity. 
 
-You should be able to navigate back and forth between these 2 activities. 
+- You should be able to navigate back and forth between these 2 activities. 
 
 
-
-The purpose of this challenge is not to showcase design skills but rather to demonstrate ability to write thoughtful, reusable, and scalable code as well as the ability to read and understand API documentation.  We will, however, be judging it based on general usability, efficiency, and architecture.
 
 
